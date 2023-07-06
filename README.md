@@ -14,6 +14,8 @@ catkin_create_pkg:创建软件包，格式：catkin_create_pkg 包名字　依�
 roscd:在终端中进入指定软件包的文件地址．如进入上面的依赖roscpp：roscd　roscpp．
 
 rostopic list:查看消息列表．
+![Uploading image.png…]()
+
 
 2,cmake:
 add_executable(${PROJECT_NAME}_node src/ssr_pkg_node.cpp)：格式：add_executable(执行节点名字（最后与节点名一致） 节点路径)：
