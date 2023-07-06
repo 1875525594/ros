@@ -25,5 +25,4 @@ target_link_libraries(chao_node
 
 3,ros方法：
 ros::ok()　　响应外部（如终端）的各种中断．如：ctrl+c
-![image](https://github.com/1875525594/ros/assets/109819399/d0407e8c-c7f6-4cba-b1c8-32deb646ed76)
 
