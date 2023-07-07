@@ -1,0 +1,2 @@
+atr_pkg:ros_tutorials/ros_tutorials:ros_tutorials/roscpp_tutorials:ros_tutorials/rospy_tutorials:ros_tutorials/turtlesim:ssr_pkg:wpr_simulation
+-DCMAKE_BUILD_TYPE=RelWithDebInfo -G Unix Makefiles -DCATKIN_DEVEL_PREFIX=/home/gdm0/work_code/devel_isolated -DCMAKE_INSTALL_PREFIX=/home/gdm0/work_code/install_isolated
