@@ -23,7 +23,7 @@ void imucallback(sensor_msgs::Imu msg){
     double target_yaw=90;
     double diff_angle= target_yaw-yaw;
     geometry_msgs::Twist vel_cmd;
-    vel_cmd.linear.z=diff_angle*0.1;
+    vel_cmd.angular.z=diff_angle*0.1;
     vel_pub.publish(vel_cmd);
 }
 
