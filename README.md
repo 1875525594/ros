@@ -62,5 +62,7 @@ ros::ok()　　响应外部（如终端）的各种中断．如：ctrl+c
 printf(msg.data.c_str())与ROS_WARN(msg.data.c_str())，ROS_INFO(msg.data.c_str());没有多大区别．
 
 
+功能包查看位置:
+cd /opt/ros/noetic/share/
 
 

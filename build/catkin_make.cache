@@ -1,0 +1,2 @@
+atr_pkg:imu_pkg:lidar_pkg:map_pkg:param_server:qq_msgs:ros_tutorials/ros_tutorials:ros_tutorials/roscpp_tutorials:ros_tutorials/rospy_tutorials:ros_tutorials/turtlesim:server_clien:slam_pkg:ssr_pkg:test_tutorials:vel_pkg:wpr_simulation
+-DCMAKE_BUILD_TYPE=RelWithDebInfo -DCATKIN_DEVEL_PREFIX=/home/gdm0/work_code/devel -DCMAKE_INSTALL_PREFIX=/home/gdm0/work_code/install -G Unix Makefiles

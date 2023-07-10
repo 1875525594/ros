@@ -1,0 +1,16 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/gdm0/work_code/devel_isolated/turtlesim/lib/python3/dist-packages",
+        "/home/gdm0/work_code/devel_isolated/rospy_tutorials/lib/python3/dist-packages",
+        "/home/gdm0/work_code/devel_isolated/roscpp_tutorials/lib/python3/dist-packages",
+        "/home/gdm0/work_code/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/gdm0/work_code/devel_isolated/turtlesim/lib/python3/dist-packages",
+        "/home/gdm0/work_code/devel_isolated/rospy_tutorials/lib/python3/dist-packages",
+        "/home/gdm0/work_code/devel_isolated/roscpp_tutorials/lib/python3/dist-packages",
+        "/home/gdm0/work_code/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ]
+}

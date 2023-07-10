@@ -1,0 +1,8 @@
+prefix=/home/gdm0/work_code/install
+
+Name: server_clien
+Description: Description of server_clien
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

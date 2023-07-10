@@ -1,0 +1,8 @@
+prefix=/home/gdm0/work_code/devel
+
+Name: qq_msgs
+Description: Description of qq_msgs
+Version: 0.0.0
+Cflags: -I/home/gdm0/work_code/devel/include
+Libs: -L${prefix}/lib 
+Requires: message_generation message_runtime roscpp rospy std_msgs

@@ -10,6 +10,7 @@ project(ssr_pkg)
 find_package(catkin REQUIRED COMPONENTS
   roscpp
   rospy
+  qq_msgs
   std_msgs
 )
 
@@ -201,10 +202,13 @@ include_directories(
 # if(TARGET ${PROJECT_NAME}-test)
 #   target_link_libraries(${PROJECT_NAME}-test ${PROJECT_NAME})
 # endif()
-
+add_executable(demomymsg src/demomymsg.cpp)
+# add_dependencies(demomymsg qq_msgs_generate_messages_cpp)
+target_link_libraries(demomymsg
+  ${catkin_LIBRARIES}
+)
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
-
 add_executable(chao_node src/chao_node.cpp)
 target_link_libraries(chao_node
   ${catkin_LIBRARIES}
@@ -214,3 +218,4 @@ add_executable(yao_node src/yao_node.cpp)
 target_link_libraries(yao_node
   ${catkin_LIBRARIES}
 )
+

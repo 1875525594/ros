@@ -1,6 +1,6 @@
 #include<ros/ros.h>
 #include<std_msgs/String.h>
-
+//cd /opt/ros/noetic/share/
 int main(int argc, char *argv[])
 {
     int i=0;

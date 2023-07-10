@@ -207,6 +207,8 @@ include_directories(
 
 add_executable(ma_node src/ma_node.cpp)
 ##
+#add_dependencies(ma_node qq_msgs_generate_messages_cpp)
+
 target_link_libraries(ma_node
   ${catkin_LIBRARIES}
 )

@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
     ros::init(argc,argv,"ma_node");
     //
     ros::NodeHandle nh;
-    ros::Subscriber ss =nh.subscribe("qqwwee",10,chao_callback);
+    ros::Subscriber ss =nh.subscribe("aaaaa",10,chao_callback);
     ros::Subscriber ssyao =nh.subscribe("yao",10,chao_callback2);
     
     
