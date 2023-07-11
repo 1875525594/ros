@@ -1,8 +1,0 @@
-prefix=/home/gdm0/work_code/devel
-
-Name: server_clien
-Description: Description of server_clien
-Version: 0.0.0
-Cflags: -I/home/gdm0/work_code/devel/include
-Libs: -L${prefix}/lib 
-Requires: 
