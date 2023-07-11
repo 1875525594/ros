@@ -1,5 +1,0 @@
-# generated from catkin/cmake/template/order_packages.context.py.in
-source_root_dir = '/home/gdm0/work_code/src'
-whitelisted_packages = ''.split(';') if '' != '' else []
-blacklisted_packages = ''.split(';') if '' != '' else []
-underlay_workspaces = '/home/gdm0/work_code/devel_isolated/wpr_simulation;/home/gdm0/work_code/devel_isolated/turtlesim;/home/gdm0/work_code/devel_isolated/ssr_pkg;/home/gdm0/work_code/devel_isolated/rospy_tutorials;/home/gdm0/work_code/devel_isolated/roscpp_tutorials;/home/gdm0/work_code/devel_isolated/ros_tutorials;/home/gdm0/work_code/devel_isolated/atr_pkg;/home/gdm0/work_code/devel;/opt/ros/noetic'.split(';') if '/home/gdm0/work_code/devel_isolated/wpr_simulation;/home/gdm0/work_code/devel_isolated/turtlesim;/home/gdm0/work_code/devel_isolated/ssr_pkg;/home/gdm0/work_code/devel_isolated/rospy_tutorials;/home/gdm0/work_code/devel_isolated/roscpp_tutorials;/home/gdm0/work_code/devel_isolated/ros_tutorials;/home/gdm0/work_code/devel_isolated/atr_pkg;/home/gdm0/work_code/devel;/opt/ros/noetic' != '' else []

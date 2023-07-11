@@ -1,8 +1,0 @@
-prefix=/home/gdm0/work_code/install
-
-Name: test_tutorials
-Description: Description of test_tutorials
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
