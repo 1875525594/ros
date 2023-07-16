@@ -88,11 +88,17 @@ rosparam可以对多个参数进行操作，前提时把这些参数放到.yaml�
  <rosparam file="param.yaml" command="load"/>
 
 
-arg是把参数用在launch文件内部来使用，把launch文件看作是脚本的话，arg类似这个脚本里面设置变量的语法、语句，使用方式如下：
- <arg name="name"  default="value" />
+arg是把参数用在launch文件内部来使用，把launch文件看作是脚本的话，arg类似这个脚本里面设置变量的语法、语句，
+ 使用方式如下：
+ 
+  ` <arg name="name"  default="value" />
 
 
-这只是基本的使用方式，里面还可以添加其它的，比如ns（命名空间），也可以将arg嵌套param当中，如下：
-<rosparam file="$(find xpkg)param.yaml" command="load" ns="params"/>
-<param name="name"   value="$(arg xxx)"/>
 
+这只是基本的使用方式，里面还可以添加其它的，比如ns（命名空间），也可以将arg嵌套param当中，
+ 如下：
+ 
+ <rosparam file="$(find xpkg)param.yaml" command="load" ns="params"/>
+ <param name="name"   value="$(arg xxx)"/>
+
+ 
