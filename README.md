@@ -70,9 +70,19 @@ cd /opt/ros/noetic/share/
 launch文件应用：
 launch文件中param、rosparam以及arg之间的区别？
 param与rosparam两个参数调用差不多，都是把launch文件中的一些参数直接设置到rosmaster（ros中的节点管理器）里面以便于各个节点的使用，主要不同在于param只对一个参数进行操作，
-使用方式如下：
-<param name="name"   value="ture"/>
+  使用方式如下：
+  1，如：
+    <param name="name"   value="ture"/>
+    
+  2，如：
+  
+    <launch>
+        <arg name="xxx" />
+        <param name="param" value="$(arg xxx)" />
+    </launch>
 
+    命令行调用：
+    roslaunch hello.launch xxx:=值
 
 rosparam可以对多个参数进行操作，前提时把这些参数放到.yaml文件中，使用方式如下：
 <rosparam file="param.yaml" command="load"/>
