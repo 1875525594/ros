@@ -69,6 +69,7 @@ cd /opt/ros/noetic/share/
 
 launch文件应用：
 launch文件中param、rosparam以及arg之间的区别？
+快速入门：
 param与rosparam两个参数调用差不多，都是把launch文件中的一些参数直接设置到rosmaster（ros中的节点管理器）里面以便于各个节点的使用，主要不同在于param只对一个参数进行操作，
   使用方式如下：
   1，如：
@@ -82,7 +83,7 @@ param与rosparam两个参数调用差不多，都是把launch文件中的一些�
     </launch>
 
     命令行调用：
-    roslaunch hello.launch xxx:=值
+  roslaunch hello.launch xxx:=值
 
 rosparam可以对多个参数进行操作，前提时把这些参数放到.yaml文件中，使用方式如下：
  <rosparam file="param.yaml" command="load"/>
@@ -101,4 +102,18 @@ arg是把参数用在launch文件内部来使用，把launch文件看作是脚�
  <rosparam file="$(find xpkg)param.yaml" command="load" ns="params"/>
  <param name="name"   value="$(arg xxx)"/>
 
+
+1，Param存储数据遵循的是YAML规范。具体：https://blog.csdn.net/qq_15204179/article/details/107238065
+如果去简单的理解，可以认为是一个key value的组合，key是string类型，value 的类型可以有多种。
+value的类型有:
+
+    integer: 整数类型
+    boolean: bool类型
+    double: 小数类型
+    list: 集合列表类型
+    map: 字典类型
+    binary: 二进制数据类型
+
+ 查询操作：rosparam list
+ 
  
