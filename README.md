@@ -16,7 +16,7 @@ roscd:在终端中进入指定软件包的文件地址．如进入上面的依�
 rostopic list:查看消息列表．
 ![image](https://github.com/1875525594/ros/assets/109819399/2b3b6459-12a2-4a87-aac2-5adeb9912062)
 
-
+ 
 rqt_graph：节点之间通讯关系图
 
 ![image-20230706174920002](/home/gdm0/snap/typora/82/.config/Typora/typora-user-images/image-20230706174920002.png)
